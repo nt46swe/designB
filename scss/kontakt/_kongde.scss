@@ -1,0 +1,123 @@
+.gde_wrapper {
+  width: 100%;
+  &_container {
+    width: 90%;
+    margin: 0 auto;
+    &_title {
+      margin: 0 auto;
+      margin-top: 70px;
+      margin-bottom: 20px;
+      width: 1240px;
+      color: #3e3e3e;
+      text-align: center;
+      font-family: roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    &_text {
+      margin: 0 auto;
+      margin-bottom: 20px;
+      width: 1140px;
+      color: #3e3e3e;
+      text-align: center;
+      font-family: roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    &_img {
+      display: block;
+      width: 62px;
+      height: 62px;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .gde_wrapper {
+    width: 100%;
+    &_container {
+      width: 90%;
+      margin: 0 auto;
+      &_title {
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        width: 688px;
+        color: #3e3e3e;
+        text-align: center;
+        font-family: roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+      &_text {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 688px;
+        color: #3e3e3e;
+        text-align: center;
+        font-family: roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &_img {
+        display: block;
+        width: 62px;
+        height: 62px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .gde_wrapper {
+    width: 100%;
+    &_container {
+      width: 90%;
+      margin: 0 auto;
+      &_title {
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        width: 300px;
+        color: #3e3e3e;
+        text-align: center;
+        font-family: roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+      &_text {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 300px;
+        color: #3e3e3e;
+        text-align: center;
+        font-family: montserrat;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+      &_img {
+        display: block;
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

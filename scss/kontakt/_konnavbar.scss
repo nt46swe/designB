@@ -1,0 +1,274 @@
+.kontakt_wrapper {
+  width: 100%;
+  &_container {
+    width: 90%;
+    margin: 20px auto;
+    &_navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &_left {
+        display: flex;
+        align-items: center;
+        gap: 37px;
+        &_div {
+          display: flex;
+          align-items: center;
+        }
+        &_logo {
+          width: 120px;
+        }
+        &_ul {
+          display: flex;
+          align-items: center;
+          gap: 40px;
+          &_li {
+            &_a {
+              color: #3e3e3e;
+              font-family: Montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            &_a:hover {
+              cursor: pointer;
+              color: #3c93f0;
+            }
+          }
+        }
+      }
+      &_right {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        &_select {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          &_icon {
+            width: 21.12px;
+            height: 16px;
+          }
+          &_list {
+            color: #3e3e3e;
+            font-family: montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          &_list:hover {
+            cursor: pointer;
+            color: #3c93f0;
+          }
+        }
+        &_number {
+          color: #fed036;
+          font-family: Roboto;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+          &_span {
+            color: #3e3e3e;
+          }
+        }
+      }
+    }
+  }
+}
+.fa-solid {
+  color: #3c93f0;
+}
+
+@media screen and (max-width: 800px) {
+  .kontakt_wrapper {
+    width: 100%;
+    &_container {
+      position: relative;
+      width: 90%;
+      margin: 20px auto;
+      &_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_left {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &_div {
+            display: flex;
+            align-items: center;
+          }
+          &_logo {
+            width: 120px;
+          }
+          &_ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            &_li {
+              &_a {
+                display: none;
+                color: #3e3e3e;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+              &_a:hover {
+                cursor: pointer;
+                color: #3c93f0;
+              }
+            }
+          }
+        }
+        &_right {
+          display: none;
+          display: flex;
+          align-items: center;
+          gap: 60px;
+          &_select {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &_icon {
+              display: none;
+              width: 21.12px;
+              height: 16px;
+            }
+            &_list {
+              display: none;
+              color: #3e3e3e;
+              font-family: montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            &_list:hover {
+              cursor: pointer;
+              color: #3c93f0;
+            }
+          }
+          &_number {
+            display: none;
+            color: #fed036;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            &_span {
+              color: #3e3e3e;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fa-solid {
+    color: #3c93f0;
+    position: absolute;
+    right: 0px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .kontakt_wrapper {
+    width: 100%;
+    &_container {
+      position: relative;
+      width: 90%;
+      margin: 20px auto;
+      &_navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &_left {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          &_div {
+            display: flex;
+            align-items: center;
+          }
+          &_logo {
+            width: 70px;
+            height: 21px;
+          }
+          &_ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            &_li {
+              &_a {
+                display: none;
+                color: #3e3e3e;
+                font-family: Montserrat;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+              }
+              &_a:hover {
+                cursor: pointer;
+                color: #3c93f0;
+              }
+            }
+          }
+        }
+        &_right {
+          display: none;
+          display: flex;
+          align-items: center;
+          gap: 60px;
+          &_select {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            &_icon {
+              display: none;
+              width: 21.12px;
+              height: 16px;
+            }
+            &_list {
+              display: none;
+              color: #3e3e3e;
+              font-family: montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            }
+            &_list:hover {
+              cursor: pointer;
+              color: #3c93f0;
+            }
+          }
+          &_number {
+            display: none;
+            color: #fed036;
+            font-family: Roboto;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            &_span {
+              color: #3e3e3e;
+            }
+          }
+        }
+      }
+    }
+  }
+  .fa-solid {
+    color: #3c93f0;
+    position: absolute;
+    right: 0px;
+  }
+}
