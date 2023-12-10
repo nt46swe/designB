@@ -1,0 +1,769 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.wraper {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid;
+}
+.wraper .header {
+  width: 1300px;
+  height: 100px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+.wraper .header .header__nav {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 15%;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-left .btn {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  height: 35px;
+  border-radius: 3px;
+}
+.wraper .header .header__nav .header__nav-left .btn button {
+  width: 40%;
+  height: 101%;
+  color: #3E3E3E;
+  background: #FED036;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+.wraper .header .header__nav .header__nav-left .btn .btn_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 61%;
+  height: 100%;
+  text-align: center;
+  background: #3E3E3E;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.wraper .header .header__nav .header__nav-list {
+  width: 40%;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-list ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-list ul li a {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wraper .header .header__nav .header__nav-list ul li a i {
+  color: #3C93F0;
+  padding: 0 5px 0 0;
+}
+.wraper .header .header__nav .header__nav-right {
+  width: 40%;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-right ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+.wraper .header .header__nav .header__nav-right ul i {
+  color: #3C93F0;
+  padding: 0 5px 0 0;
+}
+.wraper .header .header__nav .header__nav-right ul li a {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.wraper .header .header__nav .header__nav-right ul p {
+  color: #3E3E3E;
+  text-align: right;
+  font-family: Gilroy;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.wraper .header .header__nav .header__nav-right ul span {
+  color: #FED036;
+  font-family: Gilroy;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.wraper .header .header__nav .menu {
+  display: none;
+}
+
+@media screen and (max-width: 1120px) {
+  .wraper {
+    width: 100%;
+  }
+  .wraper .header {
+    width: 100%;
+    height: 60px;
+  }
+  .wraper .header .header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .wraper .header .header__nav .header__nav-left {
+    width: 20%;
+    height: 100%;
+  }
+  .wraper .header .header__nav .header__nav-left .btn {
+    width: 70%;
+    height: 50%;
+  }
+  .wraper .header .header__nav .header__nav-list {
+    display: none;
+    width: 50%;
+  }
+  .wraper .header .header__nav .header__nav-right {
+    display: none;
+  }
+  .wraper .header .header__nav .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    width: 15%;
+    height: 100%;
+    border: 1px solid;
+  }
+  .wraper .header .header__nav .menu i {
+    color: #3C93F0;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wraper {
+    width: 100%;
+  }
+  .wraper .header {
+    width: 100%;
+    height: 50px;
+  }
+  .wraper .header .header__nav {
+    width: 100%;
+  }
+  .wraper .header .header__nav .header__nav-left {
+    width: 25%;
+    height: 100%;
+  }
+  .wraper .header .header__nav .header__nav-left .btn {
+    width: 80%;
+    background-color: #3E3E3E;
+    border-radius: 3px;
+  }
+  .wraper .header .header__nav .header__nav-left .btn button {
+    font-size: 13px;
+    border-radius: 3px;
+  }
+  .wraper .header .header__nav .header__nav-left .btn .btn_text {
+    font-size: 13px;
+    border-radius: 0 3px 3px 0;
+  }
+  .wraper .header .header__nav .menu {
+    width: 10%;
+  }
+  .wraper .header .header__nav .menu i {
+    font-size: 26px;
+  }
+}
+.main {
+  width: 100%;
+  border: 1px solid;
+}
+.main .main__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 1300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #FED036;
+}
+.main .main__container .main__container-phone {
+  display: none;
+}
+.main .main__container .main__container-text {
+  width: 60%;
+  height: 500px;
+}
+.main .main__container .main__container-text h3 {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 60px 0 20px 75px;
+}
+.main .main__container .main__container-text h1 {
+  color: #FFF;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 53px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 800px;
+  padding: 0 0 20px 75px;
+}
+.main .main__container .main__container-text p {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0 30px 75px;
+}
+.main .main__container .main__container-text p i {
+  font-size: 20px;
+  padding: 0 10px 0 0;
+}
+.main .main__container .main__container-text .res {
+  display: none;
+}
+.main .main__container .main__container-text .ipt {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 45px;
+  background-color: #FFF;
+  margin: 0 0 0 75px;
+  border-radius: 3px;
+}
+.main .main__container .main__container-text .ipt img {
+  width: 10%;
+  height: 100%;
+  width: 20px;
+  margin: 0 4px 0 4px;
+}
+.main .main__container .main__container-text .ipt select {
+  border: none;
+  width: 5%;
+  height: 100%;
+  outline: none;
+}
+.main .main__container .main__container-text .ipt ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 60%;
+}
+.main .main__container .main__container-text .ipt ul a {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.9;
+}
+.main .main__container .main__container-text .ipt .btnipt {
+  width: 30%;
+  height: 100%;
+  background: #3C93F0;
+  border-radius: 3px;
+  color: #FFF;
+  border: none;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main .main__container .main__container-bg {
+  position: absolute;
+  left: 57%;
+  width: 400px;
+  height: 550px;
+  background-image: url(../../pages/zapros/washer.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.main .main__cart {
+  width: 1300px;
+  height: 750px;
+  margin: 0 auto;
+}
+.main .main__cart .mobile {
+  display: none;
+}
+.main .main__cart .main__cart_top {
+  width: 100%;
+  height: 250px;
+}
+.main .main__cart .main__cart_top h1 {
+  color: #3E3E3E;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 70px 0 30px 0;
+}
+.main .main__cart .main__cart_top p {
+  color: #3E3E3E;
+  text-align: center;
+  font-family: "Nova Square", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 1200px;
+  padding: 0 0 0 75px;
+}
+.main .main__cart .main__cart_bottom {
+  display: flex;
+  width: 85%;
+  height: 450px;
+  margin: 0 auto;
+}
+.main .main__cart .main__cart_bottom .cart__left {
+  width: 30%;
+  height: 100%;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top {
+  width: 95%;
+  height: 40%;
+  box-shadow: 0.5px 0.5px 1px 0.1px;
+  border-radius: 5px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item {
+  width: 100%;
+  height: 60px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item i {
+  padding: 0 10px 0 0;
+  font-size: 20px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item h2 {
+  color: #3E3E3E;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 20px 0 0 20px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item p {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 5px 0 0 20px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item a {
+  color: #3E3E3E;
+  font-family: "Nova Square", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px 0 0 20px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-top .item:hover {
+  background-color: #FED036;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom {
+  width: 100%;
+  height: 60%;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom p {
+  color: #3E3E3E;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 20px 0 0 20px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  height: 25%;
+  margin-top: 10px;
+  box-shadow: 0.5px 0.5px 1.5px 0.1px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child {
+  margin-left: 17px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child-text h3 {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0 0 0 10px;
+}
+.main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child-text a {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 0 0 0 10px;
+}
+.main .main__cart .main__cart_bottom .cart__right {
+  width: 70%;
+  height: 100%;
+  background-image: url(../../pages/zapros/map.png);
+}
+
+@media screen and (max-width: 1120px) {
+  .main {
+    max-width: 100%;
+  }
+  .main .main__container {
+    width: 100%;
+    height: 450px;
+  }
+  .main .main__container .main__container-text {
+    width: 60%;
+    height: 450px;
+  }
+  .main .main__container .main__container-text h3 {
+    font-size: 20px;
+    padding: 100px 0 20px 50px;
+  }
+  .main .main__container .main__container-text h1 {
+    font-size: 32px;
+    width: 420px;
+    padding: 0 0 20px 50px;
+  }
+  .main .main__container .main__container-text p {
+    font-size: 14px;
+    padding: 0 0 20px 50px;
+  }
+  .main .main__container .main__container-text p i {
+    font-size: 15px;
+  }
+  .main .main__container .main__container-text .ipt {
+    margin: 0 0 0 50px;
+    width: 300px;
+    height: 40px;
+  }
+  .main .main__container .main__container-text .ipt img {
+    width: 7%;
+  }
+  .main .main__container .main__container-text .ipt ul {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+  }
+  .main .main__container .main__container-text .ipt ul a {
+    font-size: 12px;
+    text-align: end;
+    padding: 0 0 0 20px;
+  }
+  .main .main__container .main__container-text .ipt .btnipt {
+    width: 30%;
+    height: 100%;
+  }
+  .main .main__container .main__container-bg {
+    width: 320px;
+    height: 390px;
+    background-image: url(../../pages/zapros/washer.png);
+    background-repeat: no-repeat;
+    background-size: 280px 100%;
+  }
+  .main .main__container .main__container-water {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 86%;
+    top: 5%;
+    width: 85px;
+    height: 85px;
+    border: 5px solid white;
+    background-color: #3C93F0;
+    border-radius: 50%;
+  }
+  .main .main__container .main__container-water i {
+    color: #FFF;
+    font-size: 40px;
+  }
+  .main .main__cart {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_top {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_top h1 {
+    font-size: 32px;
+  }
+  .main .main__cart .main__cart_top p {
+    font-size: 14px;
+    padding: 0 0 0 50px;
+    width: 750px;
+  }
+  .main .main__cart .main__cart_bottom {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left {
+    width: 25%;
+    margin: 0 0 0 50px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top {
+    width: 95%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top .item {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top .item i {
+    font-size: 15px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top .item h2 {
+    font-size: 12px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top .item p {
+    font-size: 10px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-top .item ul li a {
+    font-size: 8px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom {
+    width: 95%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom p {
+    font-size: 12px;
+    padding: 15px 0 0 0;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child {
+    width: 20%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child img {
+    width: 35px;
+    height: 35px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child-text {
+    width: 80%;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child-text h3 {
+    font-size: 10px;
+  }
+  .main .main__cart .main__cart_bottom .cart__left .cart__left-bottom .cart__left-bottom-box .child-text ul li a {
+    font-size: 8px;
+  }
+  .main .main__cart .main__cart_bottom .cart__right {
+    width: 63%;
+    background-image: url(../../pages/zapros/map.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 400px) {
+  .main {
+    width: 100%;
+  }
+  .main .main__container {
+    width: 100%;
+    height: 550px;
+  }
+  .main .main__container .main__container-text {
+    width: 100%;
+  }
+  .main .main__container .main__container-text h3 {
+    display: none;
+  }
+  .main .main__container .main__container-text h1 {
+    width: 100%;
+    width: 350px;
+    font-size: 24px;
+    text-align: center;
+    padding: 0 0 0 30px;
+  }
+  .main .main__container .main__container-text .iclas {
+    display: none;
+  }
+  .main .main__container .main__container-text .ipt {
+    display: none;
+  }
+  .main .main__container .main__container-text .res {
+    color: #3E3E3E;
+    text-align: center;
+    font-family: "Nova Square", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 0 0 10px;
+  }
+  .main .main__container .main__container-bg {
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    width: 228px;
+    height: 321px;
+    background-image: url(../../pages/zapros/washer.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .main .main__container .main__container-water {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 70%;
+    top: 38%;
+    width: 75px;
+    height: 75px;
+    border: 5px solid white;
+    background-color: #3C93F0;
+    border-radius: 50%;
+  }
+  .main .main__container .main__container-water i {
+    color: #FFF;
+    font-size: 25px;
+  }
+  .main .main__cart {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_top {
+    width: 100%;
+  }
+  .main .main__cart .main__cart_top h1 {
+    font-size: 25px;
+    width: 350px;
+    padding: 100px 0 0 40px;
+  }
+  .main .main__cart .main__cart_top p {
+    display: none;
+  }
+  .main .main__cart .main__cart_bottom {
+    display: none;
+  }
+  .mobile {
+    width: 100%;
+  }
+  .mobile .cart__left-top {
+    box-shadow: 0.5px 0.5px 1.5px 0.5px;
+    width: 95%;
+    margin: 0 0 0 10px;
+  }
+  .mobile .cart__left-top .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 95%;
+    height: 60px;
+    margin: 10px;
+  }
+  .mobile .cart__left-top .item i {
+    padding: 0 10px 0 20px;
+    font-size: 20px;
+  }
+  .mobile .cart__left-top .item p {
+    font-size: 16px;
+    font-weight: 900;
+  }
+  .mobile .cart__left-top .item a {
+    color: #3E3E3E;
+    font-family: Proxima Nova;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 0 50px;
+  }
+  .mobile .cart__left-top .item:hover {
+    background-color: #FED036;
+  }
+  .mobile .mobile_bg {
+    width: 95%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../../pages/zapros/mobile\ \(2\).png);
+    margin-top: 50px;
+  }
+  .mobile .cart__left-bottom {
+    width: 100%;
+  }
+  .mobile .cart__left-bottom p {
+    color: #3E3E3E;
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 30px 0 30px 10px;
+  }
+  .mobile .cart__left-bottom .cart__left-bottom-box {
+    box-shadow: 0.5px 0.5px 1.5px 0.5px;
+    margin: 10px;
+    height: 80px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+  }
+  .mobile .cart__left-bottom .cart__left-bottom-box .child {
+    width: 54px;
+    height: 54px;
+    padding: 0 0 0 10px;
+  }
+  .mobile .cart__left-bottom .cart__left-bottom-box .child-text h3 {
+    font-size: 18px;
+    padding: 0 0 0 20px;
+  }
+  .mobile .cart__left-bottom .cart__left-bottom-box .child-text a {
+    color: #3E3E3E;
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 0 0 20px;
+  }
+}
+
+/*# sourceMappingURL=zakaz.css.map */
