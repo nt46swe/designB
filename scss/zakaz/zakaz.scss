@@ -1,0 +1,593 @@
+@import './global';
+@import './header';
+.main{
+    width: 100%;
+    border: 1px solid;
+    .main__container{
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 1300px;
+        height: 600px;
+        margin: 0 auto;
+        background-color: #FED036;
+        .main__container-phone{
+            display: none;
+        }
+        .main__container-text{
+            width: 60%;
+            height: 500px;
+            
+            h3{
+                color: #3E3E3E;
+                font-family: 'Nova Square', sans-serif;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                padding: 60px 0 20px 75px;
+            }
+            h1{
+                color: #FFF;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-size: 53px;
+                font-style: normal;
+                font-weight: 900;
+                line-height: normal;
+                text-transform: uppercase;
+                width: 800px;
+                padding: 0 0 20px 75px;
+            }
+            p{
+                color: #3E3E3E;
+                font-family: 'Nova Square', sans-serif;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                padding: 0 0 30px 75px;
+                i{
+                    font-size: 20px;
+                    padding: 0 10px 0 0;
+                }
+            }
+            .res{
+                display: none;
+            }
+            .ipt{
+                display: flex;
+                align-items: center;
+                width: 350px;
+                height: 45px;
+                background-color: #FFF;
+                margin: 0 0 0 75px;
+                border-radius: 3px;
+                img{
+                    width:10%;
+                    height: 100%;
+                    width: 20px;
+                    margin: 0 4px 0 4px;
+                }
+                select{
+                    border: none;
+                    width:5%;
+                    height: 100%;
+                    outline: none;
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    height: 100%;
+                    width: 60%;
+                    a{
+                        color: #3E3E3E;
+                        font-family: 'Nova Square', sans-serif;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        opacity: 0.9;
+                        
+                    }
+                }
+                .btnipt{
+                    width: 30%;
+                    height: 100%;
+                    background: #3C93F0;
+                    border-radius: 3px;
+                    color: #FFF;
+                    border: none;
+                    text-align: center;
+                    font-family: Gilroy;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: normal;
+                }
+            }
+        }
+        .main__container-bg{
+            position: absolute;
+            left: 57%;
+            width: 400px;
+            height: 550px;
+            background-image: url(../../pages/zapros/washer.png);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+    .main__cart{
+        width: 1300px;
+        height: 750px;
+        margin: 0 auto;
+        .mobile{
+            display: none;
+        }
+        .main__cart_top{
+            width: 100%;
+            height: 250px;
+            h1{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: Gilroy;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                padding: 70px 0 30px 0;
+            }
+            p{
+                color: #3E3E3E;
+                text-align: center;
+                font-family: 'Nova Square', sans-serif;
+                font-size: 22px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                width: 1200px;
+                padding: 0 0 0 75px;
+            }
+        }
+        .main__cart_bottom{
+            display: flex;
+            width: 85%;
+            height:450px;
+            margin: 0 auto;
+            .cart__left{
+                width: 30%;
+                height: 100%;
+                .cart__left-top{
+                    width: 95%;
+                    height: 40%;
+                    box-shadow: 0.5px 0.5px 1.0px 0.1px;
+                    border-radius: 5px;
+                    .item{
+                        width: 100%;
+                        height: 60px;
+                        i{
+                            padding: 0 10px 0 0;
+                            font-size: 20px;
+                        }
+                        h2{
+                            color: #3E3E3E;
+                            font-family: Gilroy;
+                            font-size: 20px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            padding: 20px 0 0 20px;
+                        }
+                        p{
+                            color: #3E3E3E;
+                            font-family: 'Nova Square', sans-serif;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            padding: 5px 0 0 20px;
+                        }
+                        a{
+                            color: #3E3E3E;
+                            font-family: 'Nova Square', sans-serif;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            padding: 10px 0 0 20px;
+                        }
+                    }
+                    .item:hover{
+                        background-color: #FED036;
+                        
+                    }
+                    
+                }
+                .cart__left-bottom{
+                    width: 100%;
+                    height: 60%;
+                    p{
+                        color: #3E3E3E;
+                        font-family: Gilroy;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        padding: 20px 0 0 20px;
+                    }
+                    .cart__left-bottom-box{
+                        display: flex;
+                        align-items: center;
+                        width: 95%;
+                        height: 25%;
+                        margin-top: 10px;
+                        box-shadow: 0.5px 0.5px 1.5px 0.1px;
+                        .child{
+                            margin-left: 17px;
+                        }
+                        .child-text{
+                            h3{
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                padding: 0 0 0 10px;
+                            }
+                            a{
+                                color: #3E3E3E;
+                                font-family: Proxima Nova;
+                                font-size: 12px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                padding: 0 0 0 10px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .cart__right{
+                width: 70%;
+                height: 100%;
+
+                background-image: url(../../pages/zapros/map.png);
+            }
+        }
+    }
+}
+
+
+
+
+
+@media screen and (max-width:1120px){
+    .main{
+        max-width: 100% ;
+        .main__container{
+            width: 100%;
+            height: 450px;
+            .main__container-text{
+                width: 60%;
+                height: 450px;
+                h3{
+                    font-size: 20px;
+                    padding: 100px 0 20px 50px;
+                }
+                h1{
+                    font-size: 32px;
+                    width: 420px;
+                    padding: 0 0 20px 50px;
+                }
+                p{
+                    font-size: 14px;
+                    padding: 0 0 20px 50px;
+                    i{
+                        font-size: 15px;
+                    }
+                }
+                .ipt{
+                    margin: 0 0 0 50px;
+                    width: 300px;
+                    height: 40px;
+                    img{
+                        width: 7%;
+                    }
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        justify-content: start;
+                        width: 60%;
+                        a{
+                            font-size: 12px;
+                            text-align: end;
+                            padding: 0 0 0 20px;
+                        }
+                    }
+                    .btnipt{
+                        width: 30%;
+                        height: 100%;
+                    }
+                }
+                
+            }
+            .main__container-bg{
+                width:320px;
+                height: 390px;
+                background-image: url(../../pages/zapros/washer.png);
+                background-repeat: no-repeat;
+                background-size: 280px 100%;
+                
+            }
+            .main__container-water{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                left: 86%;
+                top: 5%;
+                width: 85px;
+                height: 85px;
+                border: 5px solid white;
+                background-color: #3C93F0;
+                border-radius: 50%;
+                i{
+                    color: #FFF;
+                    font-size: 40px;
+                }
+            }
+        }
+        .main__cart{
+            width: 100%;
+            .main__cart_top{
+                width: 100%;
+                h1{
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 14px;
+                    padding: 0 0 0 50px;
+                    width: 750px;
+                }
+            }
+            .main__cart_bottom{
+                width: 100%;
+                .cart__left{
+                    width: 25%;
+                    margin: 0 0 0  50px;
+                    .cart__left-top{
+                        width: 95%;
+                        .item{
+                            width: 100%;
+                            i{
+                                font-size: 15px;
+                            }
+                            h2{
+                                font-size: 12px;
+                            }
+                            p{
+                                font-size: 10px;
+                            }
+                            ul li a{
+                                font-size: 8px;
+                            }
+                        }
+                    }
+                    .cart__left-bottom{
+                        width: 95%;
+                        p{
+                            font-size: 12px;
+                            padding: 15px 0 0 0;
+                        }
+                        .cart__left-bottom-box{
+                            width: 100%;
+                            .child{
+                                width: 20%;
+                                img{
+                                    width: 35px;
+                                    height: 35px;
+                                }
+                            }
+                            .child-text{
+                                width: 80%;
+                                h3{
+                                    font-size: 10px;
+                                    
+                                }
+                                ul li a{
+                                    font-size: 8px;
+                                    
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+                .cart__right{
+                    width: 63%;
+                    background-image: url(../../pages/zapros/map.png);
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width:400px) {
+    .main{
+        width: 100%;
+        .main__container{
+            width: 100%;
+            height: 550px;
+            .main__container-text{
+                width: 100%;
+                h3{
+                    display: none;
+                }
+                h1{
+                    width: 100%;
+                    width: 350px;
+                    font-size: 24px;
+                    text-align: center;
+                    padding: 0 0 0 30px;
+                    
+                }
+                .iclas{
+                    display: none;
+                }
+                .ipt{
+                    display: none;
+                }
+                .res{
+                    color: #3E3E3E;
+                    text-align: center;
+                    font-family: 'Nova Square', sans-serif;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding: 20px 0 0 10px;
+                }
+            }
+            .main__container-bg{
+                position: absolute;
+                left: 20%;
+                top: 40%;
+                width:228px;
+                height: 321px;
+                background-image: url(../../pages/zapros/washer.png);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .main__container-water{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                left: 70%;
+                top: 38%;
+                width: 75px;
+                height: 75px;
+                border: 5px solid white;
+                background-color: #3C93F0;
+                border-radius: 50%;
+                i{
+                        color: #FFF;
+                        font-size: 25px;
+                }
+            }
+            
+        }
+        .main__cart{
+            width: 100%;
+            .main__cart_top{
+                width: 100%;
+                h1{
+                    font-size: 25px;
+                    width: 350px;
+                    padding: 100px 0 0 40px;
+
+                }
+                p{
+                    display: none;
+                }
+            }
+            .main__cart_bottom{
+                display: none;
+            }
+        }
+    }
+    .mobile{
+        width: 100%;
+        .cart__left-top{
+            box-shadow: 0.5px 0.5px 1.5px 0.5px;
+            width: 95%;
+            margin: 0 0 0 10px;
+            .item{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 95%;
+                height: 60px;
+                margin: 10px;
+                i{
+                    padding: 0 10px 0 20px;
+                    font-size: 20px;
+                }
+                p{
+                    font-size: 16px;
+                    font-weight: 900;
+                }
+                a{
+                    color: #3E3E3E;
+                    font-family: Proxima Nova;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    padding:  0 0 0 50px;
+                }
+            }
+            .item:hover{
+                background-color: #FED036;
+            }
+        }
+
+        .mobile_bg{
+            width: 95%;
+            height: 500px;
+            margin: 0 auto;
+            background-image: url(../../pages/zapros/mobile\ \(2\).png);
+            margin-top: 50px;
+            
+        }
+        .cart__left-bottom{
+            width: 100%;
+            p{
+                color: #3E3E3E;
+                font-family: Gilroy;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: normal;
+                padding: 30px 0 30px 10px;
+            }
+            .cart__left-bottom-box{
+                box-shadow: 0.5px 0.5px 1.5px 0.5px;
+                margin: 10px;
+                height: 80px;
+                width: 95%;
+                display: flex;
+                align-items: center;
+                .child{
+                    width: 54px;
+                    height: 54px;
+                    padding: 0 0 0 10px;
+                }
+                .child-text{
+                    h3{
+                        font-size: 18px;
+                        padding: 0 0 0 20px;
+                    }
+                    a{
+                        color: #3E3E3E;
+                        font-family: Proxima Nova;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        padding: 0 0 0 20px;
+                    }
+                }
+            }
+        }
+        
+    }
+    
+}
