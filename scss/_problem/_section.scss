@@ -1,0 +1,125 @@
+section {
+
+    .section__text-exposure {
+        text-align: center;
+        padding-bottom: 30px;
+
+        .section__text-num {
+            color: #3E3E3E;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+        }
+
+        .section__text-param {
+            color: #3E3E3E;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .section__text-how {
+        color: #3E3E3E;
+        font-family: 'Kanit', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .section__oclock {
+        font-family: 'Kanit', sans-serif;
+        color: #3E3E3E;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 7px;
+    }
+
+    .section__text-som {
+        color: #3E3E3E;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .section__private {
+        color: #3C93F0;
+        text-align: center;
+        font-family: 'Kanit', sans-serif;
+        margin-top: 4px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+
+    .section__mix {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+
+        .btn1 {
+            color: #FFF;
+            padding: 16px 30px;
+            border: none;
+            outline: none;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-transform: uppercase;
+            border-radius: 3px;
+            background: #3C93F0;
+
+
+        }
+    }
+
+    .section__carb1 {
+        width: 400px;
+        height: 60px;
+        flex-shrink: 0;
+        border: 1px dashed #3C93F0;
+        color: #3E3E3E;
+        font-family: 'Kanit', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-left: 10px;
+        margin-bottom: 75px;
+        padding-top: 16px;
+    }
+
+    .sec__check {
+        background-color: rgb(23, 214, 23);
+        color: #fff;
+        padding: 5px 5px;
+        border-radius: 50px;
+    }
+
+    .section__span-2 {
+        padding-left: 100px;
+    }
+
+
+
+
+
+}

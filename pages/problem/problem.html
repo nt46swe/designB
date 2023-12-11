@@ -1,11 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>G`ulomov_problem</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../../scss/main.scss">
+
 </head>
+
+<!-- d-none d-sm-block  computer -->
+<!-- d-block d-sm-none  responsive -->
+
 <body>
-    <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, dolor excepturi magni beatae quibusdam nobis eveniet voluptatum neque debitis eum commodi deserunt pariatur tempore iusto ipsum distinctio placeat assumenda in!</h1>
+
+    <nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./img/logo.svg" alt="" class="nav__img">
+                </div>
+                <div class="col-6">
+                    <ul class="nav__list">
+                        <li class="nav__list-iteam"> <i class="fa-solid fa-bars nav__bars"></i> Цены на услуги</li>
+                        <li class="nav__list-iteam">О компании</li>
+                        <li class="nav__list-iteam">Отзывы</li>
+                        <li class="nav__list-iteam">Контакты</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <div class="nav__tex-div">
+                        <p class="nav__text-Moskva">Moсква и Подмосковье</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <h6 class="nav__text-phone">8 (495) <span class="nav__text-phone-span"> 106-52-16</span></h6>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="header__text-div">
+                        <h4 class="header__text-1">ПОМОЖЕМ С РЕМОНТОМ</h4>
+                        <h1 class="header__text-2">Ремонт стиральной машины</h1>
+                        <p class="header__text-3"> <i class="fa-solid fa-person-hiking "></i> Выезд мастера от 30 минут
+                        </p>
+                        <form>
+                            <input type="text" class="header__inp " placeholder="+7 (999) 000-00-00">
+                            <button class="header__btn">Заказать</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="header__img-moshin-div">
+                        <img src="./img/picture.svg" alt="" class="header__moshin-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__text-exposure">
+                        <h1 class="section__text-num">Сколько стоит?</h1> <br>
+                        <p class="section__text-param">Что бы сориентироваться в стоимости ремонт. стоит точно
+                            определить проблему неисправности вашей <br> техники.</p> <br>
+                        <img src="./img/icon-down-arrow.svg" alt="" class="section__img-dawn">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Протекает или течет</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 45 минут / Стоимость запчасти ≈ 580 ₽</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 410 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Не открывается люк</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 10 минут / Без запчасти</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 250 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <h4 class="section__text-how">Не сливает воду</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 30 минут / Стоимость запчасти ≈ 320 ₽</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 360 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Не греет воду</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 20 минут / Без запчасти</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 600 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Не набирает воду</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 40 минут / Стоимость запчасти ≈ 630 ₽</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 390 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Не отжимает белье</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 40 минут / Стоимость запчасти ≈ 630 ₽</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 410 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+            </div>
+            <div class="row">
+                <hr>
+                <div class="col-4">
+                    <h4 class="section__text-how">Шумит или гудит</h4>
+                </div>
+                <div class="col-4">
+                    <p class="section__oclock">Время работы ≈ 40 минут / Стоимость запчасти ≈ 630 ₽</p>
+                </div>
+                <div class="col-2">
+                    <h6 class="section__text-som">от 390 ₽</h6>
+                </div>
+                <div class="col-2">
+                    <p class="section__private">Заказать <i class="fa-solid fa-arrow-right"></i></p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__mix">
+                        <button class="btn1">Все неисправности</button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="section__carb1">
+                        <p class="section__param_2">Выезд мастера  <span class="section__span-2"><i class="fa-solid fa-check sec__check"></i> БЕСПЛАТНО</span></p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="section__carb1">
+                        <p class="section__param_2">Диагностика  <span class="section__span-2"><i class="fa-solid fa-check sec__check"></i> БЕСПЛАТНО</span></p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="section__carb1">
+                        <p class="section__param_2">Гарантия на год <span class="section__span-2"><i class="fa-solid fa-check sec__check"></i> БЕСПЛАТНО</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="section2__carb">
+                        <img src="./img/noun_Washing Machine_249242 1.png" alt="" class="section2__img-yellow">
+                        <p class="section2__text-psram">Стоимость: <br> <span class="section2__span">1 200,00 р.</span></p>
+                        <p class="section2__text-out">Задача: <span class="sect2_span3">Замена ТЭНа</span></p>
+                        <p class="section2__text-out">Бренд: <span class="sect2_span3">LG</span></p>
+                        <p class="section2__text-out">Модель: <span class="sect2_span3">F4V3ES0W</span></p>
+                        <p class="section2__text-out">Выполнено за:  <span class="sect2_span3">30 мин.</span></p>
+                        <div class="person__div">
+                            <img src="./img/Rectangle 1021.png" alt="" class="section__img-person">
+                            <p class="section__text-person">Мастер: <br>  <span class="sec2__span4">Роман Н.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="section2__carb">
+                        <img src="./img/noun_Washing Machine_249242 1.png" alt="" class="section2__img-yellow">
+                        <p class="section2__text-psram">Стоимость: <br> <span class="section2__span">1 900,00 р.</span></p>
+                        <p class="section2__text-out">Задача: <span class="sect2_span3">Не морозит</span></p>
+                        <p class="section2__text-out">Бренд: <span class="sect2_span3">Samsung</span></p>
+                        <p class="section2__text-out">Модель: <span class="sect2_span3">F4V3ES0W</span></p>
+                        <p class="section2__text-out">Выполнено за:  <span class="sect2_span3">1 час</span></p>
+                        <div class="person__div">
+                            <img src="./img/Rectangle 1021.png" alt="" class="section__img-person">
+                            <p class="section__text-person">Мастер: <br>  <span class="sec2__span4">Александр И.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="section2__carb">
+                        <img src="./img/noun_Washing Machine_249242 1.png" alt="" class="section2__img-yellow">
+                        <p class="section2__text-psram">Стоимость: <br> <span class="section2__span">660,00 р.</span></p>
+                        <p class="section2__text-out">Задача: <span class="sect2_span3">Не сливает воду</span></p>
+                        <p class="section2__text-out">Бренд: <span class="sect2_span3">Bosh</span></p>
+                        <p class="section2__text-out">Модель: <span class="sect2_span3">F4V3ES0W</span></p>
+                        <p class="section2__text-out">Выполнено за:  <span class="sect2_span3">50 мин.</span></p>
+                        <div class="person__div">
+                            <img src="./img/Rectangle 1021.png" alt="" class="section__img-person">
+                            <p class="section__text-person">Мастер: <br>  <span class="sec2__span4">Василий Р.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="section2__carb">
+                        <img src="./img/noun_Washing Machine_249242 1.png" alt="" class="section2__img-yellow">
+                        <p class="section2__text-psram">Стоимость: <br> <span class="section2__span">700,00 р..</span></p>
+                        <p class="section2__text-out">Задача: <span class="sect2_span3">Вода не сливает</span></p>
+                        <p class="section2__text-out">Бренд: <span class="sect2_span3">LG</span></p>
+                        <p class="section2__text-out">Модель: <span class="sect2_span3">F4V3ES0W</span></p>
+                        <p class="section2__text-out">Выполнено за:  <span class="sect2_span3">1 мин.</span></p>
+                        <div class="person__div">
+                            <img src="./img/Rectangle 1021.png" alt="" class="section__img-person">
+                            <p class="section__text-person">Мастер: <br>  <span class="sec2__span4">Роман Н.</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="section__text-exposure">
+                        <h1 class="section__text-num">Какие бренды обслуживаем?</h1> <br>
+                        <p class="section__text-param">Оказываем постгарантийный ремонт техники всех марок, наши мастера имею авторизацию популярных <br> брендов.</p> <br>
+                        <img src="./img/icon-down-arrow.svg" alt="" class="section__img-dawn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="./img/brands-logo.png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (1).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (2).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (3).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (4).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (5).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (6).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (7).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (8).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (9).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (10).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (1)1.png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (12).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (13).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (14).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (15).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-2">
+                    <img src="./img/brands-logo (16).png" alt="" class="sect3__ar">
+                </div>
+                <div class="col-12">
+                    <div class="section__text-exposure">
+                        <h1 class="section__text-num">Как выглядит ремонт?</h1> <br>
+                        <p class="section__text-param">Ознакомтесь с процесом работы в наших отчетах, где будет понятно насколько сложен ремонт. <br>
+                            Где станет понятно что работу лучге доверить специалисту.</p> <br>
+                        <img src="./img/icon-down-arrow.svg" alt="" class="section__img-dawn">
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="section4__card-text">
+                        <h4 class="sect4__text">За 2021 год мы подарили вторую жизнь 4 725 видам техники.</h4>
+                        <p class="sect4__param">Нам доверяют за качество и честную стоимость, а также мы делаем так, чтобы больше не ломалось.</p>
+                        <button class="sect4__btn">Все неисправности</button>
+                        <p class="sect4__param3">листайте вправо</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="sect__carb">
+                        <img src="./img/Rectangle 1129.png" alt="" class="sect_imgcarb">
+                        <h6 class="sect4__text-our">Произведена замена подшипников. <br> <div class="span sect_span5"> г.Москва, Южное Бутово</div></h6>
+                            <p class="sect4__data">Дата: <br> <span class="sect__span6">01 Августа 2021</span></p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="sect__carb">
+                        <img src="./img/Rectangle 1129 (1).png" alt="" class="sect_imgcarb">
+                        <h6 class="sect4__text-our">Произведена замена подшипников. <br> <div class="span sect_span5"> г.Москва, Южное Бутово</div></h6>
+                            <p class="sect4__data">Дата: <br> <span class="sect__span6">25 Июль 2021</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section__text-exposure">
+                        <h1 class="section__text-num">Почему выбирают нас?</h1> <br>
+                        <p class="section__text-param">ОНаши премущества, помогают нам удерживать лидирующие позиции на рынке услуг по ремонту.</p> <br>
+                        <img src="./img/icon-down-arrow.svg" alt="" class="section__img-dawn">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

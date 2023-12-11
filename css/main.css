@@ -1,3 +1,391 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
+nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+nav .nav__list {
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  margin-top: 7px;
+}
+nav .nav__list .nav__list-iteam {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+nav .nav__list .nav__list-iteam .nav__bars {
+  color: blue;
+}
+nav .nav__tex-div {
+  text-align: end;
+}
+nav .nav__tex-div .nav__text-Moskva {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 5px;
+}
+nav .nav__text-phone {
+  color: #3E3E3E;
+  text-align: right;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+}
+nav .nav__text-phone .nav__text-phone-span {
+  color: #FED036;
+  font-family: "Kanit", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
 
+/* 992 dan 1199 gacha */
+/* 768 dan 991 gacha */
+/* 576 dan 767 gacha */
+/* 0 dan 575 gacha */
+header {
+  background-color: #FED036;
+  margin-bottom: 70px;
+}
+header .header__text-div {
+  margin-left: 40px;
+}
+header .header__text-div .header__text-1 {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 170px;
+  padding-bottom: 30px;
+}
+header .header__text-div .header__text-2 {
+  color: #FFF;
+  font-family: "Kanit", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+header .header__text-div .header__text-3 {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+header .header__text-div .header__inp {
+  padding: 15px 62px;
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 3px;
+  background: #FFF;
+  border: none;
+  outline: none;
+}
+header .header__text-div .header__btn {
+  padding: 15px 35px;
+  border: none;
+  outline: none;
+  color: #FFF;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  margin-left: -10px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 3px;
+  background: #3C93F0;
+}
+header .header__img-moshin-div {
+  margin-left: 40px;
+}
+
+section .section__text-exposure {
+  text-align: center;
+  padding-bottom: 30px;
+}
+section .section__text-exposure .section__text-num {
+  color: #3E3E3E;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+section .section__text-exposure .section__text-param {
+  color: #3E3E3E;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+section .section__text-how {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .section__oclock {
+  font-family: "Kanit", sans-serif;
+  color: #3E3E3E;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 7px;
+}
+section .section__text-som {
+  color: #3E3E3E;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+section .section__private {
+  color: #3C93F0;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  margin-top: 4px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+section .section__mix {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+section .section__mix .btn1 {
+  color: #FFF;
+  padding: 16px 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background: #3C93F0;
+}
+section .section__carb1 {
+  width: 400px;
+  height: 60px;
+  flex-shrink: 0;
+  border: 1px dashed #3C93F0;
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 10px;
+  margin-bottom: 75px;
+  padding-top: 16px;
+}
+section .sec__check {
+  background-color: rgb(23, 214, 23);
+  color: #fff;
+  padding: 5px 5px;
+  border-radius: 50px;
+}
+section .section__span-2 {
+  padding-left: 100px;
+}
+
+.section2 .section2__carb {
+  margin-bottom: 40px;
+  width: 290px;
+  height: 358px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 2px solid #F1F1F1;
+  background: #FFF;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+.section2 .section2__carb .section2__img-yellow {
+  background-color: rgb(205, 205, 19);
+  padding: 10px 10px;
+  border-radius: 3px;
+  background: #FED036;
+}
+.section2 .section2__carb .section2__text-psram {
+  margin-left: 100px;
+  margin-top: -60px;
+}
+.section2 .section2__carb .section2__span {
+  color: #3E3E3E;
+  text-align: right;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 .section2__carb .section2__text-out {
+  color: #878787;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section2 .section2__carb .sect2_span3 {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section2 .section2__carb .person__div .section__text-person {
+  color: #878787;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 50px;
+  margin-top: -45px;
+}
+.section2 .section2__carb .person__div .section__text-person .sec2__span4 {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section3 .sect3__ar {
+  margin-bottom: 70px;
+}
+
+.section4 .section4__card-text .sect4__text {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.section4 .section4__card-text .sect4__param {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.section4 .section4__card-text .sect4__btn {
+  color: #FFF;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background: #3C93F0;
+  padding: 16px 33px;
+  border: none;
+  margin-bottom: 30px;
+  outline: none;
+}
+.section4 .section4__card-text .sect4__param3 {
+  color: #878787;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section4 .sect__carb {
+  margin-bottom: 150px;
+}
+.section4 .sect__carb .sect4__text-our {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-top: 21px;
+}
+.section4 .sect__carb .sect_span5 {
+  color: #3E3E3E;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.section4 .sect__carb .sect4__data {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 120%;
+  /* 16.8px */
+}
+.section4 .sect__carb .sect__span6 {
+  color: #3E3E3E;
+  font-family: Proxima Nova;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 16.8px */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
 
 /*# sourceMappingURL=main.css.map */

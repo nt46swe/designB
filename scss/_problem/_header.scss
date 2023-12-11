@@ -1,0 +1,78 @@
+header {
+    background-color: #FED036;
+    margin-bottom: 70px;
+
+
+    .header__text-div {
+
+        margin-left: 40px;
+        .header__text-1 {
+            color: #3E3E3E;
+            font-family: 'Kanit', sans-serif;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            padding-top: 170px;
+            padding-bottom: 30px;
+
+        }
+
+        .header__text-2 {
+            color: #FFF;
+            font-family: 'Kanit', sans-serif;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: normal;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+        }
+
+        .header__text-3 {
+            color: #3E3E3E;
+            font-family: 'Kanit', sans-serif;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            padding-bottom: 30px;
+        }
+
+
+        .header__inp {
+            padding: 15px 62px;
+            color: #3E3E3E;
+            font-family: 'Kanit', sans-serif;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            border-radius: 3px;
+            background: #FFF;
+            border: none;
+            outline: none;
+        }
+
+        .header__btn {
+            padding: 15px 35px;
+            border: none;
+            outline: none;
+            color: #FFF;
+            text-align: center;
+            font-family: 'Kanit', sans-serif;
+            margin-left: -10px;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 3px;
+            background: #3C93F0;
+        }
+    }
+
+    .header__img-moshin-div{
+        margin-left: 40px;
+    }
+
+}
