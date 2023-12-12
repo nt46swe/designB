@@ -376,6 +376,81 @@ section .section__span-2 {
   line-height: 120%; /* 16.8px */
 }
 
+.section5 .sect5_carb {
+  width: 400px;
+  height: 85px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #c5cbce;
+  padding-top: 20px;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+.section5 .sect5_carb .sect5_param {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section5 .sect5_carb .sect5__span {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section5 .sect5__bg-carb {
+  width: 820px;
+  height: 400px;
+  padding-left: 360px;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.section5 .sect5__bg-carb .sect5__text {
+  color: #3E3E3E;
+  font-family: "Kanit", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.section5 .sect5__bg-carb .sect5__text .sect5__text-two {
+  color: #3E3E3E;
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 144.444% */
+}
+
+.section6 .section6__imges {
+  margin-bottom: 20px;
+}
+.section6 .sect6__btn .sect6__btn2 {
+  padding: 18px 38px 16px 41px;
+  border-radius: 3px;
+  background: #3C93F0;
+  color: #FFF;
+  font-family: "Kanit", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+}
+.section6 .sect6__images {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  margin-top: 20px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;

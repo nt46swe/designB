@@ -1,0 +1,29 @@
+.section6 {
+
+    .section6__imges {
+        margin-bottom: 20px;
+    }
+
+    .sect6__btn {
+
+        .sect6__btn2 {
+            padding: 18px 38px 16px 41px;
+            border-radius: 3px;
+            background: #3C93F0;
+            color: #FFF;
+            font-family: 'Kanit', sans-serif;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+        }
+    }
+    .sect6__images{
+        display: flex;
+        justify-content: end;gap: 30px;
+        margin-top: 20px;
+    }
+}
